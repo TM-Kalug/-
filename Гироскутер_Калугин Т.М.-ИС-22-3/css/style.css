@@ -1,0 +1,472 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg_img{
+    background-image: url(/img/Glavnoe.png);
+}
+.row{
+    display: flex;
+}
+.container{
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.right{
+    margin-left: auto;
+}
+header{
+    padding: 30px 0;
+}
+ul{
+    list-style: none;
+}
+.header-margin{
+    margin-top: 20px;
+}
+.p_header{
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-top: 13px;
+}
+.button{
+    border: none;
+    border-radius: 7px;
+    width: 214px;
+    height: 42px;
+    background-color: #FFA100;
+    color: white;
+    cursor: pointer;
+}
+.header_logo{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    margin-right: 20px;
+    margin-top: 9px;
+    cursor: pointer;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+.bg_img{
+    background-image: url(/img/Glavnoe.png);
+    width: 100%;
+    height: 880px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h1_main{
+    text-align: center;
+    color: white;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-size: 56px;
+    padding-top: 30%;
+    line-height: 150%;
+}
+.p_main{
+    color: white;
+    line-height: 150%;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.button_main{
+    width: 145px;
+    height: 42px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+.center{
+    margin-top: 30px;
+    text-align: center;
+}
+.ourplus{
+    font-size: 36px;
+    font-family: sans-serif;
+    color: #928989;
+    text-align: left;
+}
+.block{
+    display: block;
+    text-align: center;
+    margin-top: 65px;
+    padding:0 20px;
+}
+.ourplus_div{
+    color: #928989;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-top: 18px;
+}
+.ourplus_img{
+    height: 100px;
+}
+.between{
+    justify-content: space-between;
+}
+.us{
+    font-size: 20px;
+    font-weight: lighter;
+    color: #928989;
+    line-height: 30px;
+    font-family: sans-serif;
+    margin-top: 60px;
+}
+.sub{
+    width: 300px;
+    height: 43px;
+    color: white;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.text{
+    text-align: left;
+    width: 222px;
+    height: 46px;
+    margin-left: 40px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.buttsub{
+    width: 222px;
+    height: 48px;
+    background-color: white;
+    margin-left: 40px;
+    border: none;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+.PandM{
+    color: #928989;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-top: 60px;
+}
+.bottom{
+    margin-top: 20px;
+}
+.p3{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #000000;
+    margin-left: 20px;
+}
+.p3:active{
+    width: auto;
+    height: auto;
+    border: none;
+    background-color: #FFA100;
+    cursor: pointer;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+}
+.p3:focus{
+    width: auto;
+    height: auto;
+    border: none;
+    background-color:#FFA100;
+    cursor: pointer;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+}
+.p3:hoover{
+    width: auto;
+    color:white;
+    height: auto;
+    border: none;
+    background-color:#FFA100;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+}
+.sigway{
+    width: auto;
+    color: white;
+    height: auto;
+    border: none;
+    background-color:#FFA100;
+    padding: 5px;
+    border-radius: 0 10px 10px 0;
+    padding: 6px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.p_card{
+    width: 50%;
+    font-size: 16px;
+    font-family: sans-serif;
+    color:#928989;
+    line-height: 120%;
+}
+.price{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.img_card{
+    width: 220px;
+    height: 220px;
+}
+.consult_name{
+    font-family: sans-serif;
+    font-size: 18px;
+    color:#928989;
+}
+.consult_job{
+    font-family: monospace;
+    font-size: 12px;
+    color:#928989;
+    margin-top: 10px;
+}
+.write_button{
+    padding: 5px;
+    font-weight: bold;
+    font-size: 12px;
+    color:white;
+    border-radius:10px;
+    background-color:#FFA100;
+    border: none;
+    margin-top: 35px;
+    cursor: pointer;
+}
+.marks{
+    font-weight: bold;
+    font-size: 40px;
+    color:#928989;
+}
+.container_marks{
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img_infa{
+    background: url(/img/фото1.png);
+    width: 215px;
+    height: 215px;
+}
+.img_infa2{
+    background: url(/img/foto2.png);
+    width: 215px;
+    height: 215px;
+}
+.img_infa3{
+    background: url(/img/foto3.png);
+    width: 215px;
+    height: 215px;
+}
+.img_infa4{
+    background: url(/img/foto4.png);
+    width: 215px;
+    height: 215px;
+}
+.img_p{
+    padding-top: 90px;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+.footer_left{
+    width: 355px;
+}
+.footer_p3{
+    margin-top: 40px;
+}
+.footer_p2{
+    margin-top: 20px;
+}
+.footer_p{
+    color:#928989;
+    font-size: 14px;
+    font-family: sans-serif;
+    line-height: 110%;
+}
+h5{
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+.div_footer{
+    margin-left: 20px;
+}
+.consult_img{
+    width: auto;
+    height: auto;
+}
+.consult_div{
+    width: auto;
+    height: auto;
+    background-color: #fbfbfb;
+    padding: 20px;
+}
+.consult_row{
+    display: flex;
+}
+
+@media (max-width: 1300){
+    .container{
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container_marks{
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .marks{
+        font-weight: bold;
+        font-size: 30px;
+        color:#928989
+    }
+    .consult_name{
+        font-family: sans-serif;
+        font-size: 30px;
+        color:#928989;
+    }
+    .consult_job{
+        font-family: monospace;
+        font-size: 10px;
+        color:#928989;
+        margin-top: 10px;
+    }
+    .consult_img{
+        width: 100px;
+        height: 100px;
+    }
+    .consult_div{
+        width: 150px;
+        height: 100px;
+        padding: 5px;
+    }
+    .sub{
+        width: 200px;
+        height: 40px;
+        color: white;
+        text-align: left;
+        font-size: 12px;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+}
+@media (max-width: 1180) {
+    .container{
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .img_infa{
+        background: url(/img/фото1.png);
+        width: 140px;
+        height: 140px;
+    }
+    .img_infa2{
+        background: url(/img/foto2.png);
+        width: 140px;
+        height: 140px;
+    }
+    .img_infa3{
+        background: url(/img/foto3.png);
+        width: 140px;
+        height: 140px;
+    }
+    .img_infa4{
+        background: url(/img/foto4.png);
+        width: 140px;
+        height: 140px;
+    }
+    .consult_job{
+        font-family: monospace;
+        font-size: 6px;
+        color:#928989;
+        margin-top: 10px;
+    }
+    consult_name{
+        font-family: sans-serif;
+        font-size: 18px;
+        color:#928989;
+    }
+    .img_card{
+        width: 160px;
+        height: 160px;
+    }
+    .sub{
+        width: 200px;
+        height: 50px;
+        color: white;
+        text-align: left;
+        font-size: 9px;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+    .buttsub{
+        width: 174px;
+        height: 48px;
+        background: white;
+        margin-left: 30px;
+        border: none;
+        cursor: pointer;
+        color: black;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .text{
+        text-align: left;
+        width: 174px;
+        height: 48px;
+        margin-left: 30px;
+        background: transparent;
+        border: 1px solid white;
+        color: white;
+        font-size: 12px;
+        font-family: sans-serif;
+     }
+     .ourplus{
+        font-size: 30px;
+     }
+     .ourplus_img{
+        height: 70px;
+     }
+     p{
+        font-size: 12px;
+     }
+     .us{
+        font-size: 16px;
+     }
+
+}
+@media(max-width: 1100px){
+    .marks{
+        font-size: 26px;
+    }
+    .container{
+        width: auto;
+    }
+}
+@media(max-width: 786px){
+    .container{
+        max-width: 560px;
+    }
+    .consult_row{
+        display: block;
+    }
+}
